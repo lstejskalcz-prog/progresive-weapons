@@ -1,0 +1,5 @@
+name: ProgressiveWeapons
+version: 1.0.1
+main: cz.progweapons.ProgressiveWeapons
+api-version: '26.2'
+description: Progressive Mace and Spear weapons.
