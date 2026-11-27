@@ -1,46 +1,4 @@
 # Kolik killu je potreba na jedno vylepseni (1 = kazdy kill)
-kills-per-upgrade: 1
-
-# true = pocitaji se i moby, false = jen hraci
-count-mobs: true
-
-# Celkovy damage maceu pro kazdy tier (normalni mace ma 6)
-mace-damage:
-  wooden: 2.0
-  stone: 3.0
-  copper: 4.0
-  iron: 5.0
-  diamond: 6.0
-  netherite: 7.0
-  emerald: 9.0
-  god: 30.0
-
-# Celkovy damage kopi - jen pro tiery, ktere nemaji vanilla ekvivalent
-spear-damage:
-  emerald: 9.0
-  god: 30.0
-
-# Enchanty podle tieru (od diamantu vys). Klice = namespace enchantu bez "minecraft:".
-# sharpness -> mace i spear, lunge -> jen spear, density + wind_burst -> jen mace.
-# Levely nad vanilla maximum funguji (unsafe enchanty), napr. u GOD.
-enchants:
-  diamond:
-    sharpness: 2
-    lunge: 1
-    density: 2
-    wind_burst: 1
-  netherite:
-    sharpness: 3
-    lunge: 2
-    density: 3
-    wind_burst: 2
-  emerald:
-    sharpness: 4
-    lunge: 3
-    density: 4
-    wind_burst: 3
-  god:
-    sharpness: 10
-    lunge: 5
-    density: 10
-    wind_burst: 5
+kills-per-level: 1
+# false = pocitaji se jen kill hracu, true = i moby
+count-mobs: false

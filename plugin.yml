@@ -1,5 +1,13 @@
-name: ProgressiveWeapons
-version: 1.0.1
-main: cz.progweapons.ProgressiveWeapons
-api-version: '26.2'
-description: Progressive Mace and Spear weapons.
+name: TierWeapons
+version: 1.0.0
+main: cz.tierweapons.TierWeapons
+api-version: '26.1'
+description: Tierovy mace a spear, ktere se vylepsuji za kazdy kill
+commands:
+  tw:
+    description: Admin prikazy TierWeapons
+    usage: /tw <give|setlevel> [0-7] [hrac]
+    permission: tierweapons.admin
+permissions:
+  tierweapons.admin:
+    default: op
